@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+}
+
+header {
+    min-height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight:490;
+}
+
+header p{
+    margin:0px 60px;
+}
+
+#id_date{
+    font-size: 18px;
+}
+
+main {
+    min-height: 88vh;
+    background: rgb(194,230,255);
+}
+
+.my_card{
+    background: white;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 35px;
+    margin-right: 35px;
+}
+
+.card-value{
+    font-size: 25px;
+    font-weight: bolder;
+    direction: ltr;
+    margin-top: 10px;
+}
+
+.description{
+    color: gray;
+}
+
+.info{
+    width: 30%;
+    text-align: center;
+}
+
+.info_hearer{
+    font-size: 15px;
+    font-weight: 500;
+}
